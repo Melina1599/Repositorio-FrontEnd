@@ -1,0 +1,31 @@
+<div class="section" id="education">
+    <div class="container cc-education">
+        <div class="h4 text-center mb-4 title">Education</div>
+        <ul class="list">
+            <li *ngFor="let education of educationList">
+                <!--UNIVERSIDAD y SECUNDARIA: los muestra en el orden en que aparece en el vector de data-->
+                <div class="card">
+                    <div class="row">                          
+                        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
+                            data-aos-duration="500">
+                            <div class="card-body cc-education-header">
+                                <div class="logo-image-container">
+                                    <img class="logo-img" [src]="education.logo">
+                                </div>
+                                <p>{{education.age}}</p>
+                                <div class="h5">{{education.category}}</div>
+                            </div>
+                        </div>
+                        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+                            <div class="card-body">
+                                <div class="h5">{{education.title}}</div>
+                                <p class="category">{{education.college}}</p>
+                                <p>{{education.description}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>

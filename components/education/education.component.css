@@ -1,0 +1,23 @@
+/* Education Style */
+.cc-education .list{
+    list-style: none;
+}
+
+.cc-education .h5 {
+    margin-bottom: 0;
+}
+  
+.cc-education .cc-education-header {
+    background-color: green;
+    padding-top: 20px;
+    padding-right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.cc-education .cc-education-header .logo-image-container .logo-img{
+    float: top-center;
+    width: 100px;
+    height: 100px;
+    margin-top: 1px;
+}

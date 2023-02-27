@@ -1,0 +1,108 @@
+{
+    "name": "Name LastName",
+    "habilities": "Full Stack Developer, QA",
+    "backImage": "https://imagenpng.com/wp-content/uploads/2020/07/2portada-para-fb.jpg",
+    "profileImage": "https://cdn-icons-png.flaticon.com/512/3220/3220386.png",
+    "position": "Student",
+    "university": "Universidad Tecnologica Nacional",
+    
+    "about": {
+        "presentation": "Hello! My name is Melina Valdez. I want to be Full Stack Developer and QA.",
+        "description": "Lover of animals, nature, art, technology and keep learning."
+    },
+    "basicInformation": {
+        "age": "23",
+        "email": "mailExampled@gmail.com",
+        "phone": "1234567890",
+        "address": {
+            "province": "Tucuman",
+            "country": "Argentina"
+        },
+        "languages": {
+            "english": "English",
+            "spanish": "Español"
+        }
+    },
+
+    "skill": {
+        "skill1": "HTML",
+        "progress1":"85%",
+
+        "skill2": "CSS",
+        "progress2":"75%",
+
+        "skill3": "JavaScript",
+        "progress3":"70%",
+
+        "skill4": "Boostrap",
+        "progress4":"35%",
+
+        "skill5": "Angular",
+        "progress5":"40%",
+
+        "skill6": " ",
+        "progress6":" "
+    },
+
+    "developer": [
+        {
+            "name": "Curriculum Project",
+            "date": "Enero de 2023",
+            "description": "Web Project",
+            "repositorio": "https://github.com/"
+        },
+        {
+            "name": "List Project",
+            "date": "Feberero de 2023",
+            "description": "Web Project",
+            "repositorio": "https://github.com/"
+        }
+    ],
+    "testing": [
+        {
+            "name": "Chatbot",
+            "date": "Diciembre de 2022",
+            "description": "QA Project"
+        },
+        {
+            "name": "Shop Online",
+            "date": "Septiembre de 2022",
+            "description": "QA Project"
+        }
+    ],
+    "workExperience": [
+        {
+            "role": "This is my role",
+            "company": "Company",
+            "description": "This is the description",
+            "dateInit": "2017-01-01",
+            "dateEnd": "2017-12-31"
+        },
+        {
+            "role": "This is my role",
+            "company": "Company",
+            "description": "This is the description",
+            "dateInit": "2018-01-01",
+            "dateEnd": "2019-12-31"
+        }
+    ],
+
+    "education": [
+        {
+            "logo": "http://frt.utn.edu.ar/2017/img/logo.png",
+            "age": "2017 - 2024",
+            "category": "Academic",
+            "title": "Information Systems Engineering",
+            "college": "National Technological University - Tucuman Regional Faculty",
+            "description": "Carrera de grado orientada al aprendizaje de metodologias y herramientas que permitan al graduado el desarrollo o mejora de sistemas de informacion complejos, tanto en aspectos de hardware como de software."
+        },
+        {
+            "logo": "https://img.freepik.com/vector-gratis/diseno-logotipo-escuela-secundaria-dibujado-mano_23-2149613310.jpg?w=740&t=st=1677298846~exp=1677299446~hmac=9e00d232c1fdf03403e5919be75092b20a566c96a9ac3317b83e7251ffe7beb2",
+            "age": "2011 - 2016",
+            "category": "High School",
+            "title":"Natural Sciences",
+            "college": "Republic of Panama School of Commerce",
+            "description": "Bachiller con orientacion en ciencias naturales"
+        }
+    ]
+}

@@ -1,0 +1,53 @@
+<div class="profile-page">
+    <div class="wrapper">
+      <div class="page-header page-header-small" filter-color="green">
+        <div class="page-header-image" data-parallax="true">
+             <img class="page-header-image" [src]="data.backImage">
+        </div>
+        <div class="container">
+          <div class="content-center">
+            <div class="cc-profile-photo">
+              <!--Databinding PROPERTY BINDING: atributos, elementos dinamicos-->
+              <a href="https://cdn-icons-png.flaticon.com/512/3220/3220386.png">
+                <img class="profile-photo" [src]="data.profileImage">
+              </a>
+            </div>
+            <!--Databinding INTERPOLACION: elementos solo lectura-->
+            <div class="h2 title">{{data.name}}</div>
+            <br>
+            <p class="category text-white">{{data.habilities}}</p>
+            <p class="category text-white">{{data.position}} in {{data.university}}</p>            
+            <a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor">Contact  Me
+            </a>
+            <a class="btn btn-primary" href="#" data-aos="zoom-in"
+                data-aos-anchor="data-aos-anchor">Download CV
+            </a>
+          </div>
+        </div>
+        <!--Iconos REDES SOCIALES-->
+        <div class="section">
+          <div class="container">
+            <div class="button-container">
+              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.facebook.com/"
+                  rel="tooltip" title="Follow me on Facebook">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://twitter.com/"
+                  rel="tooltip" title="Follow me on Twitter">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://plus.google.com/"
+                  rel="tooltip" title="Follow me on Google+">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a class="btn btn-default btn-round btn-lg btn-icon" href="https://www.instagram.com/"
+                  rel="tooltip" title="Follow me on Instagram">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

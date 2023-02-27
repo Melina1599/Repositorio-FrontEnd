@@ -1,0 +1,107 @@
+ /* Portfolio Style
+    Encabezado*/
+.cc-portfolio .nav-align-center .nav-item{
+  list-style: none;
+}
+.cc-portfolio .nav-align-center .list{
+  list-style: none;
+}
+
+#col-dev{
+  top:0px;
+  left:0px;
+  width:30px;
+  margin-top:10px;
+  margin-left: 50px;
+}
+
+.center{
+    margin: 0%;
+    position: relative;
+    top: 40%;
+    left: 2900%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#col-qa{
+  margin-left:20px;
+  margin-right:20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cc-portfolio .cc-portfolio-card {
+  background-color: lightgreen;
+  padding-top: 30px;
+  padding-right: 0;
+  text-align: center;
+  color: black;
+  text-transform: uppercase; 
+}
+
+.category{
+  color: red;
+}
+
+/*iconos*/
+.nav-pills .nav-item .nav-link {
+    padding: 0 15.5px;
+    text-align: center;
+    height: 60px;
+    width: 60px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-right: 19px;
+    background-color: rgba(222, 222, 222, 0.3);
+    border-radius: 30px;
+  }
+  
+  .nav-pills .nav-item .nav-link:hover {
+    background-color: rgba(222, 222, 222, 0.3);
+  }
+  
+  .nav-pills .nav-item .nav-link.active,
+  .nav-pills .nav-item .nav-link.active:focus,
+  .nav-pills .nav-item .nav-link.active:hover {
+    background-color: #9A9A9A;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 35px 0px rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-pills .nav-item i {
+    display: block;
+    font-size: 20px;
+    line-height: 60px;
+  }
+  
+  .nav-pills.nav-pills-neutral .nav-item .nav-link {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #FFFFFF;
+  }
+  
+  /*fondo de los botones*/
+  .nav-pills.nav-pills-primary .nav-item .nav-link.active,
+  .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus,
+  .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
+    background-color: #378C3F;
+  } 
+/*----------------------------------------------------------------------*/
+
+ /* Experience Style */
+ .cc-experience .list{
+    list-style: none;
+}
+
+ .cc-experience .cc-experience-header {
+    background-color: green;
+    padding-top: 30px;
+    padding-right: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase; 
+}

@@ -1,0 +1,92 @@
+<div class="section" id="portfolio">
+  <div class="container cc-portfolio">    
+    <div class="h4 text-center mb-4 title">Portfolio</div>
+    <div class="nav-align-center">    
+      <!--DESARROLLO-->
+      <ul class="nav nav-pills nav-pills-primary">
+        <ul class="list">
+          <div class="card">
+            <div class="row">
+              <div id="col-dev">
+                <li class="nav-item center">
+                  <a class="nav-link active">
+                    <i class="fa fa-code"></i>
+                  </a>                  
+                </li>
+              </div>
+              <li *ngFor="let developer of developerList">
+                <!--data-aos="fade-left" definia la alineacion de las columnas, si estaban mas a la izq o a la der-->
+                <!--col-md define el ancho de las columnas desarrollo y testing-->
+                <div class="col-md bg-primary" data-aos="fade-left" data-aos-offset="50"
+                      data-aos-duration="500">
+                  <div class="card-body cc-portfolio-card">
+                    <div class="h5">{{developer.name}}</div>
+                    <p class="category">{{developer.date}}</p>
+                    <a [href]="developer.repositorio">Repositorio</a>
+                    <p>{{developer.description}}</p>
+                  </div>
+                </div>
+                <br color="white">
+              </li>
+            </div>
+          </div>
+        </ul>
+        <!--TESTING-->
+        <ul class="list">
+          <div class="card">
+            <div class="row">
+              <div id="col-qa">
+                <li class="nav-item">
+                  <a class="nav-link active">
+                    <i class="fa fa-bug"></i>
+                  </a>
+                </li>
+              </div> 
+              <li *ngFor="let testing of qaList"> <!--NO confundir OF con IN-->
+                <div class="col-md bg-primary" data-aos="fade-left" data-aos-offset="50"
+                      data-aos-duration="500">
+                  <div class="card-body cc-portfolio-card">
+                    <div class="h5">{{testing.name}}</div>
+                    <p class="category">{{testing.date}}</p>
+                    <p>{{testing.description}}</p>
+                  </div>
+                </div>
+                <br color="white">
+              </li>
+            </div>
+          </div>
+        </ul>
+      </ul>
+    </div>
+  </div>  
+</div>
+
+
+<!--EXPERIENCIA-->
+<div class="section" id="experience">    
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <ul class="list">
+      <li *ngFor="let workExperience of experienceList">
+        <div class="card">
+          <div class="row">
+            <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50"
+                  data-aos-duration="500">
+              <div class="card-body cc-experience-header">
+                <p><strong>Desde: </strong> {{workExperience.dateInit}}</p>
+                <p><strong>Hasta: </strong> {{workExperience.dateEnd}}</p>
+                <div class="h5">{{workExperience.company}}</div>
+              </div>
+            </div>
+            <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+              <div class="card-body">
+                <div class="h5">{{workExperience.role}}</div>
+                <p>{{workExperience.description}}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
